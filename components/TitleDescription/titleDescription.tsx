@@ -17,8 +17,17 @@ export const Description = styled.p`
    */
 
 export class TitleDescription extends React.Component<{
+    /**
+     * Title Description
+     */
     title: string,
+    /**
+     * This is a Description
+     */
     description: string,
+    /**
+     * Choose title color
+     */
     titleColor: string
 }> {
     render () {
