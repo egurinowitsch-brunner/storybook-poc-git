@@ -18,7 +18,7 @@ type Story = StoryObj<typeof TitleDescription>;
 export const TextDivider: Story = {
     args: {
      title: "This is title",
-     description: "this is a description"
+     description: "This is a description"
     },
   };
 

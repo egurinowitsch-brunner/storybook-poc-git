@@ -1,9 +1,21 @@
 import React from 'react';
-import './titleDescription.scss';
+import styled from 'styled-components';
+//import './titleDescription.scss';
+
+export const Title = styled.h1`
+    color: #000;
+    font-family: helvetica, sans;
+    font-size: 3rem;
+`
+export const Description = styled.p`
+    font-size: 1.5rem;
+    color: #777;
+`
 
   /**
    * Adding a doc description in the typescript file
    */
+
 export class TitleDescription extends React.Component<{
     title: string,
     description: string,
@@ -12,8 +24,8 @@ export class TitleDescription extends React.Component<{
     render () {
         return(
             <div className="container">
-                <h1 className="title" style={{color: this.props.titleColor}}>{this.props.title}</h1>
-                <h3 className="description">{this.props.description}</h3>
+                <Title className="title" style={{color: this.props.titleColor}}>{this.props.title}</Title>
+                <Description className="description">{this.props.description}</Description>
             </div>
         )
     
