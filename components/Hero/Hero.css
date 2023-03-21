@@ -1,0 +1,39 @@
+.hero {
+    width: 100%;
+    display: flex;
+    padding: 3rem;
+}
+
+.hero-text-right{
+    flex-direction: row;
+}
+
+.hero-text-left{
+    flex-direction: row-reverse;
+}
+
+.hero-section{
+    width: 50%;
+    padding: 4rem;
+}
+
+.hero-section-color{
+    background-color: purple;
+    color: #fff;
+}
+
+.hero-title{
+    font-size: 4rem;
+}
+
+.hero-description{
+    font-size: 2rem;
+}
+
+.hero--primary {
+    background-color: #6e30aa;
+}
+
+.hero--secondary {
+    background-color: #007dbc;
+}
