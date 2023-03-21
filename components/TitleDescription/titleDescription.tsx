@@ -1,5 +1,5 @@
 import React from 'react';
-import './titleDescription.css';
+import './titleDescription.scss';
 
   /**
    * Adding a doc description in the typescript file
